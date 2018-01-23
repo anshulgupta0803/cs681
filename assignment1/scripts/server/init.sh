@@ -12,7 +12,7 @@ if [ "$1" == "bind" ]; then
 	else
 		echo "Port $START_PORT already in use"
 	fi
-	netstat -lnt | awk '{print $4}' | grep -q $STOP_PORT
+	netstat -lnt | awk '{print $4}' | grep -q ":$STOP_PORT$"
 	if [ $? -eq 1 ]; then
 		socat -u tcp-l:$STOP_PORT,fork system:$DIR/stopStats.sh &
 		echo "Binding port $STOP_PORT for Stop"

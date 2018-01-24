@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE tsung SYSTEM "/usr/share/tsung/tsung-1.0.dtd" [] >
+<tsung loglevel="info">
+	<clients>
+		<client host="localhost" use_controller_vm="true" />
+	</clients>
+
+	<servers>
+		<server host="bernoulli" port="80" type="tcp" />
+	</servers>
+
+	<load>
+		<arrivalphase phase="1" duration="3" unit="minute">
+			<users arrivalrate="20" unit="second" />
+		</arrivalphase>
+	</load>
+
+	<options>
+		<option name="thinktime" value="1" random="true" override="true" />
+		<option name="connect_timeout" value="50000" />
+	</options>
+
+	<sessions>
+		<session name="loop" type="ts_http" probability="100">
+			<thinktime value="1" random="true" />
+			<request>
+				<http url="/loop.php" version="1.1" />
+			</request>
+		</session>
+	</sessions>
+</tsung>
+

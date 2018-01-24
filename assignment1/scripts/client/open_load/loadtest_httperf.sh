@@ -5,7 +5,7 @@ if [ $# -ne 1 ]; then
 	exit
 fi
 
-SERVER="10.130.4.193"
+SERVER="bernoulli"
 SCRIPT="/loop.php"
 ARRIVAL_RATE=$1 # requests / sec
 DURATION=180 # seconds

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ $# -ne 1 ]; then
-	echo "Usage: ./utilization.sh ARRIVAL_RATE"
+	echo "Usage: ./utilization_httperf.sh ARRIVAL_RATE"
 	exit
 fi
 

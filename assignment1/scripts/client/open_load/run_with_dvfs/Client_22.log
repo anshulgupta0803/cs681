@@ -1,0 +1,23 @@
+httperf --hog --timeout=10000 --client=0/1 --server=bernoulli --port=80 --uri=/loop.php --rate=22 --send-buffer=4096 --recv-buffer=16384 --num-conns=2640 --num-calls=1
+Maximum connect burst length: 1
+
+Total: connections 2640 requests 2640 replies 2640 test-duration 134.501 s
+
+Connection rate: 19.6 conn/s (50.9 ms/conn, <=418 concurrent connections)
+Connection time [ms]: min 59.4 avg 12414.8 max 27212.6 median 13839.5 stddev 5649.8
+Connection time [ms]: connect 171.6
+Connection length [replies/conn]: 1.000
+
+Request rate: 19.6 req/s (50.9 ms/req)
+Request size [B]: 70.0
+
+Reply rate [replies/s]: min 10.6 avg 18.9 max 29.4 stddev 5.0 (26 samples)
+Reply time [ms]: response 12243.1 transfer 0.0
+Reply size [B]: header 171.0 content 83.0 footer 0.0 (total 254.0)
+Reply status: 1xx=0 2xx=2640 3xx=0 4xx=0 5xx=0
+
+CPU time [s]: user 51.21 system 83.29 (user 38.1% system 61.9% total 100.0%)
+Net I/O: 6.2 KB/s (0.1*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0

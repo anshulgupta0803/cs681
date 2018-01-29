@@ -1,0 +1,1 @@
+httperf --hog --timeout=10000 --client=0/1 --server=bernoulli --port=80 --uri=/loop.php --rate=28 --send-buffer=4096 --recv-buffer=16384 --num-conns=3360 --num-calls=1

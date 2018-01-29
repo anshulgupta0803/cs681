@@ -1,0 +1,2724 @@
+
+=INFO REPORT==== 28-Jan-2018::18:28:29 ===
+    ts_config_server:(5:<0.69.0>) Config server started, logdir is "/home/anshul/git/cs681/assignment1/scripts/client/closed_load/Client_5/logs/20180128-1828"
+ 
+=INFO REPORT==== 28-Jan-2018::18:28:29 ===
+              ts_mon:(5:<0.50.0>) starting monitor, global 
+
+=INFO REPORT==== 28-Jan-2018::18:28:29 ===
+           ts_config:(5:<0.69.0>) Reading config file: tsung5.xml
+
+=INFO REPORT==== 28-Jan-2018::18:28:29 ===
+           ts_config:(5:<0.69.0>) Session name for id 1 is "loop"
+
+=INFO REPORT==== 28-Jan-2018::18:28:29 ===
+    ts_config_server:(4:<0.69.0>) SYSINFO:Tsung version: 1.7.0
+
+=INFO REPORT==== 28-Jan-2018::18:28:29 ===
+    ts_config_server:(4:<0.69.0>) SYSINFO:Erlang version: Erlang/OTP 18 [erts-7.3] [source] [64-bit] [smp:8:8] [async-threads:8] [kernel-poll:true]
+
+
+=INFO REPORT==== 28-Jan-2018::18:28:29 ===
+    ts_config_server:(4:<0.69.0>) SYSINFO:System architecture x86_64-pc-linux-gnu
+
+=INFO REPORT==== 28-Jan-2018::18:28:29 ===
+    ts_config_server:(4:<0.69.0>) SYSINFO:Current path: /usr/lib/tsung/tsung-1.7.0/ebin/tsung.beam
+
+=INFO REPORT==== 28-Jan-2018::18:28:29 ===
+       ts_job_notify:(6:<0.81.0>) No listen port defined, can't open listening socket (don't worry: it's normal if you don't use job notifications) 
+
+=INFO REPORT==== 28-Jan-2018::18:28:29 ===
+    ts_os_mon_erlang:(6:<0.90.0>) Running os_mon on the same host as the controller, use the same beam
+
+=INFO REPORT==== 28-Jan-2018::18:28:29 ===
+              ts_mon:(5:<0.70.0>) Activate clients with text backend
+
+=INFO REPORT==== 28-Jan-2018::18:28:29 ===
+              ts_mon:(5:<0.70.0>) Starting tsung clients on hosts: [localhost]
+
+=INFO REPORT==== 28-Jan-2018::18:28:29 ===
+    ts_config_server:(5:<0.69.0>) Start a launcher on the controller beam localhost
+
+=INFO REPORT==== 28-Jan-2018::18:28:29 ===
+              ts_sup:(6:<0.114.0>) starting supervisor ...
+
+=INFO REPORT==== 28-Jan-2018::18:28:29 ===
+              ts_sup:(6:<0.115.0>) starting
+=INFO REPORT==== 28-Jan-2018::18:28:29 ===
+          ts_ip_scan:(6:<0.116.0>) Starting 
+
+=INFO REPORT==== 28-Jan-2018::18:28:29 ===
+     ts_launcher_mgr:(6:<0.117.0>) starting
+=INFO REPORT==== 28-Jan-2018::18:28:29 ===
+    ts_session_cache:(6:<0.115.0>) Starting
+
+=INFO REPORT==== 28-Jan-2018::18:28:29 ===
+        ts_mon_cache:(6:<0.115.0>) Starting
+
+=INFO REPORT==== 28-Jan-2018::18:28:29 ===
+        ts_local_mon:(6:<0.115.0>) Starting
+
+=INFO REPORT==== 28-Jan-2018::18:28:29 ===
+       ts_client_sup:(6:<0.121.0>) Starting 
+
+=INFO REPORT==== 28-Jan-2018::18:28:29 ===
+  ts_launcher_static:(6:<0.115.0>) starting 
+
+=INFO REPORT==== 28-Jan-2018::18:28:29 ===
+         ts_launcher:(6:<0.115.0>) starting 
+
+=INFO REPORT==== 28-Jan-2018::18:28:29 ===
+    ts_config_server:(6:<0.69.0>) Application started, activate launcher, 
+
+=INFO REPORT==== 28-Jan-2018::18:28:29 ===
+  ts_launcher_static:(6:<0.69.0>) starting on node [tsung_controller@jarvis]
+
+=INFO REPORT==== 28-Jan-2018::18:28:29 ===
+         ts_launcher:(6:<0.69.0>) starting on node [tsung_controller@jarvis]
+
+=INFO REPORT==== 28-Jan-2018::18:28:29 ===
+    ts_config_server:(5:<0.69.0>) Set max duration of test: 180 s 
+
+=INFO REPORT==== 28-Jan-2018::18:28:29 ===
+  ts_launcher_static:(5:<0.122.0>) Launch msg receive ("localhost")
+
+=INFO REPORT==== 28-Jan-2018::18:28:29 ===
+         ts_launcher:(5:<0.123.0>) Launch msg receive ("localhost")
+
+=INFO REPORT==== 28-Jan-2018::18:28:29 ===
+     ts_launcher_mgr:(6:<0.117.0>) syncing already done, skip
+
+=INFO REPORT==== 28-Jan-2018::18:28:29 ===
+              ts_mon:(6:<0.70.0>) A launcher has started
+
+=INFO REPORT==== 28-Jan-2018::18:28:29 ===
+    ts_config_server:(5:<0.69.0>) New arrival phase 1 for client "localhost" (last ? true): will start 5 users
+
+=INFO REPORT==== 28-Jan-2018::18:28:29 ===
+  ts_launcher_static:(6:<0.122.0>) No static users, stop
+=INFO REPORT==== 28-Jan-2018::18:28:29 ===
+  ts_launcher_static:(6:<0.122.0>) launcher terminating for reason normal
+
+=INFO REPORT==== 28-Jan-2018::18:28:29 ===
+         ts_launcher:(5:<0.123.0>) Expected duration of first phase: 180.0 sec (5 users) 
+
+=INFO REPORT==== 28-Jan-2018::18:28:29 ===
+         ts_launcher:(5:<0.123.0>) Activate launcher (5 users) in 1363 msec 
+
+=INFO REPORT==== 28-Jan-2018::18:28:30 ===
+    ts_os_mon_erlang:(6:<0.90.0>) Spawn monitoring process on localhost (<0.126.0>)
+
+=INFO REPORT==== 28-Jan-2018::18:28:30 ===
+    ts_config_server:(6:<0.69.0>) Session 1 chosen
+
+=INFO REPORT==== 28-Jan-2018::18:28:30 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460750398609601)
+
+=INFO REPORT==== 28-Jan-2018::18:28:30 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460750331554966)
+
+=INFO REPORT==== 28-Jan-2018::18:28:30 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460750087934289)
+
+=INFO REPORT==== 28-Jan-2018::18:28:30 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460750025189964)
+
+=INFO REPORT==== 28-Jan-2018::18:28:30 ===
+    ts_config_server:(6:<0.69.0>) Session 1 chosen
+
+=INFO REPORT==== 28-Jan-2018::18:28:30 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460749983923830)
+
+=INFO REPORT==== 28-Jan-2018::18:28:31 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460749931202329)
+
+=INFO REPORT==== 28-Jan-2018::18:28:31 ===
+    ts_config_server:(6:<0.69.0>) Session 1 chosen
+
+=INFO REPORT==== 28-Jan-2018::18:28:31 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460749594905650)
+
+=INFO REPORT==== 28-Jan-2018::18:28:31 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460749542299645)
+
+=INFO REPORT==== 28-Jan-2018::18:28:31 ===
+    ts_config_server:(6:<0.69.0>) Session 1 chosen
+
+=INFO REPORT==== 28-Jan-2018::18:28:31 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460748947862437)
+
+=INFO REPORT==== 28-Jan-2018::18:28:32 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460748894884384)
+
+=INFO REPORT==== 28-Jan-2018::18:28:32 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460748626921068)
+
+=INFO REPORT==== 28-Jan-2018::18:28:32 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460748575800756)
+
+=INFO REPORT==== 28-Jan-2018::18:28:32 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460748361865282)
+
+=INFO REPORT==== 28-Jan-2018::18:28:32 ===
+    ts_config_server:(6:<0.69.0>) Session 1 chosen
+
+=INFO REPORT==== 28-Jan-2018::18:28:32 ===
+         ts_launcher:(5:<0.123.0>) This was the last phase, wait for connected users to finish their session
+
+=INFO REPORT==== 28-Jan-2018::18:28:32 ===
+         ts_launcher:(6:<0.123.0>) launcher terminating for reason normal
+
+=INFO REPORT==== 28-Jan-2018::18:28:32 ===
+     ts_launcher_mgr:(6:<0.117.0>) All launchers are done on node tsung_controller@jarvis, wait for active clients to finish
+
+=INFO REPORT==== 28-Jan-2018::18:28:32 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460748337854733)
+
+=INFO REPORT==== 28-Jan-2018::18:28:32 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460748275365424)
+
+=INFO REPORT==== 28-Jan-2018::18:28:32 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460748259287220)
+
+=INFO REPORT==== 28-Jan-2018::18:28:32 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460748230898656)
+
+=INFO REPORT==== 28-Jan-2018::18:28:32 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460748195907746)
+
+=INFO REPORT==== 28-Jan-2018::18:28:32 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460748162793677)
+
+=INFO REPORT==== 28-Jan-2018::18:28:32 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460748129361202)
+
+=INFO REPORT==== 28-Jan-2018::18:28:33 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460747371894287)
+
+=INFO REPORT==== 28-Jan-2018::18:28:33 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460747320736017)
+
+=INFO REPORT==== 28-Jan-2018::18:28:33 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460747138934924)
+
+=INFO REPORT==== 28-Jan-2018::18:28:33 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460747087527544)
+
+=INFO REPORT==== 28-Jan-2018::18:28:33 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460746964919114)
+
+=INFO REPORT==== 28-Jan-2018::18:28:34 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460746911001723)
+
+=INFO REPORT==== 28-Jan-2018::18:28:34 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460746709898361)
+
+=INFO REPORT==== 28-Jan-2018::18:28:34 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460746658681977)
+
+=INFO REPORT==== 28-Jan-2018::18:28:34 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460746574891932)
+
+=INFO REPORT==== 28-Jan-2018::18:28:34 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460746523633178)
+
+=INFO REPORT==== 28-Jan-2018::18:28:34 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460746087891463)
+
+=INFO REPORT==== 28-Jan-2018::18:28:34 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460746036574360)
+
+=INFO REPORT==== 28-Jan-2018::18:28:36 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460744532880256)
+
+=INFO REPORT==== 28-Jan-2018::18:28:36 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460744481651620)
+
+=INFO REPORT==== 28-Jan-2018::18:28:36 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460744462885583)
+
+=INFO REPORT==== 28-Jan-2018::18:28:36 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460744411637799)
+
+=INFO REPORT==== 28-Jan-2018::18:28:37 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460743653901471)
+
+=INFO REPORT==== 28-Jan-2018::18:28:37 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460743602276847)
+
+=INFO REPORT==== 28-Jan-2018::18:28:38 ===
+           ts_client:(6:<0.131.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:28:39 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460741923938032)
+
+=INFO REPORT==== 28-Jan-2018::18:28:39 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460741872846338)
+
+=INFO REPORT==== 28-Jan-2018::18:28:39 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460741771939738)
+
+=INFO REPORT==== 28-Jan-2018::18:28:39 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460741720871565)
+
+=INFO REPORT==== 28-Jan-2018::18:28:39 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460741651929963)
+
+=INFO REPORT==== 28-Jan-2018::18:28:39 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460741600870573)
+
+=INFO REPORT==== 28-Jan-2018::18:28:39 ===
+           ts_client:(6:<0.133.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:28:40 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460740939968298)
+
+=INFO REPORT==== 28-Jan-2018::18:28:40 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460740888298292)
+
+=INFO REPORT==== 28-Jan-2018::18:28:40 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460740886957700)
+
+=INFO REPORT==== 28-Jan-2018::18:28:40 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460740835494180)
+
+=INFO REPORT==== 28-Jan-2018::18:28:40 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460740792979933)
+
+=INFO REPORT==== 28-Jan-2018::18:28:40 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460740742166721)
+
+=INFO REPORT==== 28-Jan-2018::18:28:40 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460740204969201)
+
+=INFO REPORT==== 28-Jan-2018::18:28:40 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460740154092152)
+
+=INFO REPORT==== 28-Jan-2018::18:28:41 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460739484930628)
+
+=INFO REPORT==== 28-Jan-2018::18:28:41 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460739433851485)
+
+=INFO REPORT==== 28-Jan-2018::18:28:41 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460739343903508)
+
+=INFO REPORT==== 28-Jan-2018::18:28:41 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460739292843895)
+
+=INFO REPORT==== 28-Jan-2018::18:28:41 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460739033910795)
+
+=INFO REPORT==== 28-Jan-2018::18:28:41 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460738982457721)
+
+=INFO REPORT==== 28-Jan-2018::18:28:41 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460738957884120)
+
+=INFO REPORT==== 28-Jan-2018::18:28:42 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460738906709537)
+
+=INFO REPORT==== 28-Jan-2018::18:28:42 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460738380914854)
+
+=INFO REPORT==== 28-Jan-2018::18:28:42 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460738378882131)
+
+=INFO REPORT==== 28-Jan-2018::18:28:42 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460738279976376)
+
+=INFO REPORT==== 28-Jan-2018::18:28:42 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460738279570181)
+
+=INFO REPORT==== 28-Jan-2018::18:28:43 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460737224901931)
+
+=INFO REPORT==== 28-Jan-2018::18:28:43 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460737173415550)
+
+=INFO REPORT==== 28-Jan-2018::18:28:44 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460736891892112)
+
+=INFO REPORT==== 28-Jan-2018::18:28:44 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460736840614562)
+
+=INFO REPORT==== 28-Jan-2018::18:28:44 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460736799912035)
+
+=INFO REPORT==== 28-Jan-2018::18:28:44 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460736748711835)
+
+=INFO REPORT==== 28-Jan-2018::18:28:44 ===
+           ts_client:(6:<0.134.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:28:44 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460736423949827)
+
+=INFO REPORT==== 28-Jan-2018::18:28:44 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460736372660670)
+
+=INFO REPORT==== 28-Jan-2018::18:28:44 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460736332927054)
+
+=INFO REPORT==== 28-Jan-2018::18:28:44 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460736280611012)
+
+=INFO REPORT==== 28-Jan-2018::18:28:44 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460736184928711)
+
+=INFO REPORT==== 28-Jan-2018::18:28:44 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460736159927555)
+
+=INFO REPORT==== 28-Jan-2018::18:28:44 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460736102233270)
+
+=INFO REPORT==== 28-Jan-2018::18:28:44 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460736083620276)
+
+=INFO REPORT==== 28-Jan-2018::18:28:45 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460735784879142)
+
+=INFO REPORT==== 28-Jan-2018::18:28:45 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460735738880041)
+
+=INFO REPORT==== 28-Jan-2018::18:28:45 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460735726307688)
+
+=INFO REPORT==== 28-Jan-2018::18:28:45 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460735683004906)
+
+=INFO REPORT==== 28-Jan-2018::18:28:46 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460734911862420)
+
+=INFO REPORT==== 28-Jan-2018::18:28:46 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460734860663445)
+
+=INFO REPORT==== 28-Jan-2018::18:28:46 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460734768858538)
+
+=INFO REPORT==== 28-Jan-2018::18:28:46 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460734717636579)
+
+=INFO REPORT==== 28-Jan-2018::18:28:46 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460734181900784)
+
+=INFO REPORT==== 28-Jan-2018::18:28:46 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460734130390338)
+
+=INFO REPORT==== 28-Jan-2018::18:28:49 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460731325934114)
+
+=INFO REPORT==== 28-Jan-2018::18:28:49 ===
+           ts_client:(6:<0.134.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:28:49 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460731274832008)
+
+=INFO REPORT==== 28-Jan-2018::18:28:50 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460730813876005)
+
+=INFO REPORT==== 28-Jan-2018::18:28:50 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460730762040270)
+
+=INFO REPORT==== 28-Jan-2018::18:28:50 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460730612914172)
+
+=INFO REPORT==== 28-Jan-2018::18:28:50 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460730561892606)
+
+=INFO REPORT==== 28-Jan-2018::18:28:51 ===
+           ts_client:(6:<0.132.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:28:51 ===
+           ts_client:(6:<0.133.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:28:51 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460729692897807)
+
+=INFO REPORT==== 28-Jan-2018::18:28:51 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460729641750878)
+
+=INFO REPORT==== 28-Jan-2018::18:28:51 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460729619883061)
+
+=INFO REPORT==== 28-Jan-2018::18:28:51 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460729568726747)
+
+=INFO REPORT==== 28-Jan-2018::18:28:52 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460728909831372)
+
+=INFO REPORT==== 28-Jan-2018::18:28:52 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460728857649713)
+
+=INFO REPORT==== 28-Jan-2018::18:28:53 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460727929828614)
+
+=INFO REPORT==== 28-Jan-2018::18:28:53 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460727878311410)
+
+=INFO REPORT==== 28-Jan-2018::18:28:53 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460727760893303)
+
+=INFO REPORT==== 28-Jan-2018::18:28:53 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460727709779159)
+
+=INFO REPORT==== 28-Jan-2018::18:28:53 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460727678896971)
+
+=INFO REPORT==== 28-Jan-2018::18:28:53 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460727627815838)
+
+=INFO REPORT==== 28-Jan-2018::18:28:53 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460727503910657)
+
+=INFO REPORT==== 28-Jan-2018::18:28:53 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460727452811502)
+
+=INFO REPORT==== 28-Jan-2018::18:28:53 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460727139877966)
+
+=INFO REPORT==== 28-Jan-2018::18:28:53 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460727087796127)
+
+=INFO REPORT==== 28-Jan-2018::18:28:54 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460726595882947)
+
+=INFO REPORT==== 28-Jan-2018::18:28:54 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460726565940900)
+
+=INFO REPORT==== 28-Jan-2018::18:28:54 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460726518262417)
+
+=INFO REPORT==== 28-Jan-2018::18:28:54 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460726493803534)
+
+=INFO REPORT==== 28-Jan-2018::18:28:55 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460725595888866)
+
+=INFO REPORT==== 28-Jan-2018::18:28:55 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460725544064311)
+
+=INFO REPORT==== 28-Jan-2018::18:28:55 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460725474900593)
+
+=INFO REPORT==== 28-Jan-2018::18:28:55 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460725423824510)
+
+=INFO REPORT==== 28-Jan-2018::18:28:55 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460725134881154)
+
+=INFO REPORT==== 28-Jan-2018::18:28:55 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460725094870339)
+
+=INFO REPORT==== 28-Jan-2018::18:28:55 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460725068255646)
+
+=INFO REPORT==== 28-Jan-2018::18:28:55 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460725033331428)
+
+=INFO REPORT==== 28-Jan-2018::18:28:55 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460724947878182)
+
+=INFO REPORT==== 28-Jan-2018::18:28:55 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460724946907309)
+
+=INFO REPORT==== 28-Jan-2018::18:28:56 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460724846512332)
+
+=INFO REPORT==== 28-Jan-2018::18:28:56 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460724845856112)
+
+=INFO REPORT==== 28-Jan-2018::18:28:56 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460724696879520)
+
+=INFO REPORT==== 28-Jan-2018::18:28:56 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460724665877889)
+
+=INFO REPORT==== 28-Jan-2018::18:28:56 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460724623068038)
+
+=INFO REPORT==== 28-Jan-2018::18:28:56 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460724595205671)
+
+=INFO REPORT==== 28-Jan-2018::18:28:57 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460723766869876)
+
+=INFO REPORT==== 28-Jan-2018::18:28:57 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460723715757010)
+
+=INFO REPORT==== 28-Jan-2018::18:28:58 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460722923858284)
+
+=INFO REPORT==== 28-Jan-2018::18:28:58 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460722872575919)
+
+=INFO REPORT==== 28-Jan-2018::18:29:00 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460720787870212)
+
+=INFO REPORT==== 28-Jan-2018::18:29:00 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460720736711203)
+
+=INFO REPORT==== 28-Jan-2018::18:29:00 ===
+           ts_client:(6:<0.131.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:29:01 ===
+           ts_client:(6:<0.128.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:29:01 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460719443847422)
+
+=INFO REPORT==== 28-Jan-2018::18:29:01 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460719431894727)
+
+=INFO REPORT==== 28-Jan-2018::18:29:01 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460719341715928)
+
+=INFO REPORT==== 28-Jan-2018::18:29:01 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460719340148017)
+
+=INFO REPORT==== 28-Jan-2018::18:29:01 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460719300922651)
+
+=INFO REPORT==== 28-Jan-2018::18:29:01 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460719249850989)
+
+=INFO REPORT==== 28-Jan-2018::18:29:02 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460718834835703)
+
+=INFO REPORT==== 28-Jan-2018::18:29:02 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460718783338539)
+
+=INFO REPORT==== 28-Jan-2018::18:29:02 ===
+           ts_client:(6:<0.133.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:29:03 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460717445856372)
+
+=INFO REPORT==== 28-Jan-2018::18:29:03 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460717394473280)
+
+=INFO REPORT==== 28-Jan-2018::18:29:03 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460717228859692)
+
+=INFO REPORT==== 28-Jan-2018::18:29:03 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460717177539000)
+
+=INFO REPORT==== 28-Jan-2018::18:29:04 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460716819829118)
+
+=INFO REPORT==== 28-Jan-2018::18:29:04 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460716768294093)
+
+=INFO REPORT==== 28-Jan-2018::18:29:04 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460716645868034)
+
+=INFO REPORT==== 28-Jan-2018::18:29:04 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460716594426016)
+
+=INFO REPORT==== 28-Jan-2018::18:29:04 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460716232869183)
+
+=INFO REPORT==== 28-Jan-2018::18:29:04 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460716181658320)
+
+=INFO REPORT==== 28-Jan-2018::18:29:04 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460716167884927)
+
+=INFO REPORT==== 28-Jan-2018::18:29:04 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460716116622348)
+
+=INFO REPORT==== 28-Jan-2018::18:29:04 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460716076844201)
+
+=INFO REPORT==== 28-Jan-2018::18:29:04 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460716025511759)
+
+=INFO REPORT==== 28-Jan-2018::18:29:05 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460715406904064)
+
+=INFO REPORT==== 28-Jan-2018::18:29:05 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460715355771373)
+
+=INFO REPORT==== 28-Jan-2018::18:29:05 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460715288908767)
+
+=INFO REPORT==== 28-Jan-2018::18:29:05 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460715236964323)
+
+=INFO REPORT==== 28-Jan-2018::18:29:05 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460715035945385)
+
+=INFO REPORT==== 28-Jan-2018::18:29:05 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460714984109936)
+
+=INFO REPORT==== 28-Jan-2018::18:29:05 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460714948966666)
+
+=INFO REPORT==== 28-Jan-2018::18:29:06 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460714897048512)
+
+=INFO REPORT==== 28-Jan-2018::18:29:06 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460714797915780)
+
+=INFO REPORT==== 28-Jan-2018::18:29:06 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460714746599401)
+
+=INFO REPORT==== 28-Jan-2018::18:29:07 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460713656844783)
+
+=INFO REPORT==== 28-Jan-2018::18:29:07 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460713605446875)
+
+=INFO REPORT==== 28-Jan-2018::18:29:07 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460712998818441)
+
+=INFO REPORT==== 28-Jan-2018::18:29:07 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460712947200490)
+
+=INFO REPORT==== 28-Jan-2018::18:29:08 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460712936866319)
+
+=INFO REPORT==== 28-Jan-2018::18:29:08 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460712885412335)
+
+=INFO REPORT==== 28-Jan-2018::18:29:08 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460712470828564)
+
+=INFO REPORT==== 28-Jan-2018::18:29:08 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460712419533049)
+
+=INFO REPORT==== 28-Jan-2018::18:29:08 ===
+           ts_client:(6:<0.132.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:29:08 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460712145854907)
+
+=INFO REPORT==== 28-Jan-2018::18:29:08 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460712094494441)
+
+=INFO REPORT==== 28-Jan-2018::18:29:09 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460711550902139)
+
+=INFO REPORT==== 28-Jan-2018::18:29:09 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460711499155579)
+
+=INFO REPORT==== 28-Jan-2018::18:29:09 ===
+           ts_client:(6:<0.128.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:29:10 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460710760875971)
+
+=INFO REPORT==== 28-Jan-2018::18:29:10 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460710720883142)
+
+=INFO REPORT==== 28-Jan-2018::18:29:10 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460710693205565)
+
+=INFO REPORT==== 28-Jan-2018::18:29:10 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460710658651967)
+
+=INFO REPORT==== 28-Jan-2018::18:29:10 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460710355912179)
+
+=INFO REPORT==== 28-Jan-2018::18:29:10 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460710304930247)
+
+=INFO REPORT==== 28-Jan-2018::18:29:10 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460710124878577)
+
+=INFO REPORT==== 28-Jan-2018::18:29:10 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460710073722488)
+
+=INFO REPORT==== 28-Jan-2018::18:29:11 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460709671887765)
+
+=INFO REPORT==== 28-Jan-2018::18:29:11 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460709620729490)
+
+=INFO REPORT==== 28-Jan-2018::18:29:11 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460709177882527)
+
+=INFO REPORT==== 28-Jan-2018::18:29:11 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460709126574270)
+
+=INFO REPORT==== 28-Jan-2018::18:29:11 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460709120897374)
+
+=INFO REPORT==== 28-Jan-2018::18:29:11 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460709069412504)
+
+=INFO REPORT==== 28-Jan-2018::18:29:12 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460708916837155)
+
+=INFO REPORT==== 28-Jan-2018::18:29:12 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460708865349560)
+
+=INFO REPORT==== 28-Jan-2018::18:29:12 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460708792956575)
+
+=INFO REPORT==== 28-Jan-2018::18:29:12 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460708741691700)
+
+=INFO REPORT==== 28-Jan-2018::18:29:12 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460708506845716)
+
+=INFO REPORT==== 28-Jan-2018::18:29:12 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460708455798117)
+
+=INFO REPORT==== 28-Jan-2018::18:29:12 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460708226885815)
+
+=INFO REPORT==== 28-Jan-2018::18:29:12 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460708175803177)
+
+=INFO REPORT==== 28-Jan-2018::18:29:13 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460707429841658)
+
+=INFO REPORT==== 28-Jan-2018::18:29:13 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460707378552193)
+
+=INFO REPORT==== 28-Jan-2018::18:29:13 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460707290841879)
+
+=INFO REPORT==== 28-Jan-2018::18:29:13 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460707238597356)
+
+=INFO REPORT==== 28-Jan-2018::18:29:13 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460707235890125)
+
+=INFO REPORT==== 28-Jan-2018::18:29:13 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460707184766751)
+
+=INFO REPORT==== 28-Jan-2018::18:29:14 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460706752897656)
+
+=INFO REPORT==== 28-Jan-2018::18:29:14 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460706701769286)
+
+=INFO REPORT==== 28-Jan-2018::18:29:14 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460706497758301)
+
+=INFO REPORT==== 28-Jan-2018::18:29:14 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460706446430654)
+
+=INFO REPORT==== 28-Jan-2018::18:29:14 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460706250892130)
+
+=INFO REPORT==== 28-Jan-2018::18:29:14 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460706199690709)
+
+=INFO REPORT==== 28-Jan-2018::18:29:14 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460706196889570)
+
+=INFO REPORT==== 28-Jan-2018::18:29:14 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460706145596633)
+
+=INFO REPORT==== 28-Jan-2018::18:29:14 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460705964825462)
+
+=INFO REPORT==== 28-Jan-2018::18:29:15 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460705913207502)
+
+=INFO REPORT==== 28-Jan-2018::18:29:15 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460705782807126)
+
+=INFO REPORT==== 28-Jan-2018::18:29:15 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460705731560038)
+
+=INFO REPORT==== 28-Jan-2018::18:29:17 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460703655845511)
+
+=INFO REPORT==== 28-Jan-2018::18:29:17 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460703604210008)
+
+=INFO REPORT==== 28-Jan-2018::18:29:18 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460702488774997)
+
+=INFO REPORT==== 28-Jan-2018::18:29:18 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460702479863853)
+
+=INFO REPORT==== 28-Jan-2018::18:29:18 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460702476864167)
+
+=INFO REPORT==== 28-Jan-2018::18:29:18 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460702340554509)
+
+=INFO REPORT==== 28-Jan-2018::18:29:18 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460702339102640)
+
+=INFO REPORT==== 28-Jan-2018::18:29:18 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460702336806119)
+
+=INFO REPORT==== 28-Jan-2018::18:29:18 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460702236852273)
+
+=INFO REPORT==== 28-Jan-2018::18:29:18 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460702185568979)
+
+=INFO REPORT==== 28-Jan-2018::18:29:19 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460701463807076)
+
+=INFO REPORT==== 28-Jan-2018::18:29:19 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460701442846080)
+
+=INFO REPORT==== 28-Jan-2018::18:29:19 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460701377085503)
+
+=INFO REPORT==== 28-Jan-2018::18:29:19 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460701362055503)
+
+=INFO REPORT==== 28-Jan-2018::18:29:19 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460701240876727)
+
+=INFO REPORT==== 28-Jan-2018::18:29:19 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460701189689502)
+
+=INFO REPORT==== 28-Jan-2018::18:29:19 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460700973841093)
+
+=INFO REPORT==== 28-Jan-2018::18:29:20 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460700922315830)
+
+=INFO REPORT==== 28-Jan-2018::18:29:21 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460699855854750)
+
+=INFO REPORT==== 28-Jan-2018::18:29:21 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460699804595508)
+
+=INFO REPORT==== 28-Jan-2018::18:29:21 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460699471805960)
+
+=INFO REPORT==== 28-Jan-2018::18:29:21 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460699420672332)
+
+=INFO REPORT==== 28-Jan-2018::18:29:22 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460698885792308)
+
+=INFO REPORT==== 28-Jan-2018::18:29:22 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460698834391570)
+
+=INFO REPORT==== 28-Jan-2018::18:29:23 ===
+           ts_client:(6:<0.131.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:29:23 ===
+           ts_client:(6:<0.128.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:29:24 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460696926807475)
+
+=INFO REPORT==== 28-Jan-2018::18:29:24 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460696872949027)
+
+=INFO REPORT==== 28-Jan-2018::18:29:24 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460696783821530)
+
+=INFO REPORT==== 28-Jan-2018::18:29:24 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460696731250196)
+
+=INFO REPORT==== 28-Jan-2018::18:29:24 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460696590837209)
+
+=INFO REPORT==== 28-Jan-2018::18:29:24 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460696539259257)
+
+=INFO REPORT==== 28-Jan-2018::18:29:24 ===
+           ts_client:(6:<0.132.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:29:24 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460696217844739)
+
+=INFO REPORT==== 28-Jan-2018::18:29:24 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460696165266814)
+
+=INFO REPORT==== 28-Jan-2018::18:29:25 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460695503870626)
+
+=INFO REPORT==== 28-Jan-2018::18:29:25 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460695452643926)
+
+=INFO REPORT==== 28-Jan-2018::18:29:25 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460695413877925)
+
+=INFO REPORT==== 28-Jan-2018::18:29:25 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460695362665525)
+
+=INFO REPORT==== 28-Jan-2018::18:29:25 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460695090850097)
+
+=INFO REPORT==== 28-Jan-2018::18:29:25 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460695039548213)
+
+=INFO REPORT==== 28-Jan-2018::18:29:25 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460695010862450)
+
+=INFO REPORT==== 28-Jan-2018::18:29:25 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460694985860668)
+
+=INFO REPORT==== 28-Jan-2018::18:29:26 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460694928476968)
+
+=INFO REPORT==== 28-Jan-2018::18:29:26 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460694908682198)
+
+=INFO REPORT==== 28-Jan-2018::18:29:26 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460693943852653)
+
+=INFO REPORT==== 28-Jan-2018::18:29:27 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460693892117835)
+
+=INFO REPORT==== 28-Jan-2018::18:29:27 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460693072875363)
+
+=INFO REPORT==== 28-Jan-2018::18:29:27 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460693021659234)
+
+=INFO REPORT==== 28-Jan-2018::18:29:28 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460691970874131)
+
+=INFO REPORT==== 28-Jan-2018::18:29:29 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460691919558849)
+
+=INFO REPORT==== 28-Jan-2018::18:29:29 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460691354907759)
+
+=INFO REPORT==== 28-Jan-2018::18:29:29 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460691306910107)
+
+=INFO REPORT==== 28-Jan-2018::18:29:29 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460691294651602)
+
+=INFO REPORT==== 28-Jan-2018::18:29:29 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460691253558085)
+
+=INFO REPORT==== 28-Jan-2018::18:29:29 ===
+           ts_client:(6:<0.128.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:29:29 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460691111862608)
+
+=INFO REPORT==== 28-Jan-2018::18:29:29 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460691060625400)
+
+=INFO REPORT==== 28-Jan-2018::18:29:30 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460690907880587)
+
+=INFO REPORT==== 28-Jan-2018::18:29:30 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460690856648061)
+
+=INFO REPORT==== 28-Jan-2018::18:29:30 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460690747848485)
+
+=INFO REPORT==== 28-Jan-2018::18:29:30 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460690696619093)
+
+=INFO REPORT==== 28-Jan-2018::18:29:30 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460690224896476)
+
+=INFO REPORT==== 28-Jan-2018::18:29:30 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460690188899844)
+
+=INFO REPORT==== 28-Jan-2018::18:29:30 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460690152127478)
+
+=INFO REPORT==== 28-Jan-2018::18:29:30 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460690123082102)
+
+=INFO REPORT==== 28-Jan-2018::18:29:31 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460689839869970)
+
+=INFO REPORT==== 28-Jan-2018::18:29:31 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460689788660513)
+
+=INFO REPORT==== 28-Jan-2018::18:29:31 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460689306885178)
+
+=INFO REPORT==== 28-Jan-2018::18:29:31 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460689255737416)
+
+=INFO REPORT==== 28-Jan-2018::18:29:33 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460687898842233)
+
+=INFO REPORT==== 28-Jan-2018::18:29:33 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460687847448724)
+
+=INFO REPORT==== 28-Jan-2018::18:29:33 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460687182879643)
+
+=INFO REPORT==== 28-Jan-2018::18:29:33 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460687131588264)
+
+=INFO REPORT==== 28-Jan-2018::18:29:34 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460686791940628)
+
+=INFO REPORT==== 28-Jan-2018::18:29:34 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460686740725197)
+
+=INFO REPORT==== 28-Jan-2018::18:29:34 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460686253896471)
+
+=INFO REPORT==== 28-Jan-2018::18:29:34 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460686202792415)
+
+=INFO REPORT==== 28-Jan-2018::18:29:34 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460686146894913)
+
+=INFO REPORT==== 28-Jan-2018::18:29:34 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460686099862220)
+
+=INFO REPORT==== 28-Jan-2018::18:29:34 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460686089453854)
+
+=INFO REPORT==== 28-Jan-2018::18:29:34 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460686045403882)
+
+=INFO REPORT==== 28-Jan-2018::18:29:34 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460686016878100)
+
+=INFO REPORT==== 28-Jan-2018::18:29:34 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460685965387206)
+
+=INFO REPORT==== 28-Jan-2018::18:29:35 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460685642881331)
+
+=INFO REPORT==== 28-Jan-2018::18:29:35 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460685591689084)
+
+=INFO REPORT==== 28-Jan-2018::18:29:36 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460684890828779)
+
+=INFO REPORT==== 28-Jan-2018::18:29:36 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460684839452961)
+
+=INFO REPORT==== 28-Jan-2018::18:29:36 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460684551875896)
+
+=INFO REPORT==== 28-Jan-2018::18:29:36 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460684500682921)
+
+=INFO REPORT==== 28-Jan-2018::18:29:36 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460684189861914)
+
+=INFO REPORT==== 28-Jan-2018::18:29:36 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460684138637236)
+
+=INFO REPORT==== 28-Jan-2018::18:29:37 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460683188877446)
+
+=INFO REPORT==== 28-Jan-2018::18:29:37 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460683137671610)
+
+=INFO REPORT==== 28-Jan-2018::18:29:38 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460682862835485)
+
+=INFO REPORT==== 28-Jan-2018::18:29:38 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460682811467331)
+
+=INFO REPORT==== 28-Jan-2018::18:29:38 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460682022817516)
+
+=INFO REPORT==== 28-Jan-2018::18:29:38 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460681969429314)
+
+=INFO REPORT==== 28-Jan-2018::18:29:39 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460681684913121)
+
+=INFO REPORT==== 28-Jan-2018::18:29:39 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460681633811593)
+
+=INFO REPORT==== 28-Jan-2018::18:29:39 ===
+           ts_client:(6:<0.134.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:29:40 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460680636904097)
+
+=INFO REPORT==== 28-Jan-2018::18:29:40 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460680595909680)
+
+=INFO REPORT==== 28-Jan-2018::18:29:40 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460680570999040)
+
+=INFO REPORT==== 28-Jan-2018::18:29:40 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460680535325262)
+
+=INFO REPORT==== 28-Jan-2018::18:29:40 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460680440892529)
+
+=INFO REPORT==== 28-Jan-2018::18:29:40 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460680389762872)
+
+=INFO REPORT==== 28-Jan-2018::18:29:40 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460680112866047)
+
+=INFO REPORT==== 28-Jan-2018::18:29:40 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460680064859121)
+
+=INFO REPORT==== 28-Jan-2018::18:29:40 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460680055066507)
+
+=INFO REPORT==== 28-Jan-2018::18:29:40 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460680011262018)
+
+=INFO REPORT==== 28-Jan-2018::18:29:41 ===
+           ts_client:(6:<0.132.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:29:41 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460678973838365)
+
+=INFO REPORT==== 28-Jan-2018::18:29:42 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460678922193332)
+
+=INFO REPORT==== 28-Jan-2018::18:29:42 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460678825845708)
+
+=INFO REPORT==== 28-Jan-2018::18:29:42 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460678774147877)
+
+=INFO REPORT==== 28-Jan-2018::18:29:42 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460678622865502)
+
+=INFO REPORT==== 28-Jan-2018::18:29:42 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460678571661267)
+
+=INFO REPORT==== 28-Jan-2018::18:29:42 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460678285877943)
+
+=INFO REPORT==== 28-Jan-2018::18:29:42 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460678233618933)
+
+=INFO REPORT==== 28-Jan-2018::18:29:42 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460678057874624)
+
+=INFO REPORT==== 28-Jan-2018::18:29:42 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460678006276892)
+
+=INFO REPORT==== 28-Jan-2018::18:29:43 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460677763847091)
+
+=INFO REPORT==== 28-Jan-2018::18:29:43 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460677712770785)
+
+=INFO REPORT==== 28-Jan-2018::18:29:43 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460677594896199)
+
+=INFO REPORT==== 28-Jan-2018::18:29:43 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460677543812325)
+
+=INFO REPORT==== 28-Jan-2018::18:29:43 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460677050878761)
+
+=INFO REPORT==== 28-Jan-2018::18:29:43 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460676999679984)
+
+=INFO REPORT==== 28-Jan-2018::18:29:44 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460676615881461)
+
+=INFO REPORT==== 28-Jan-2018::18:29:44 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460676564865615)
+
+=INFO REPORT==== 28-Jan-2018::18:29:45 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460675726890576)
+
+=INFO REPORT==== 28-Jan-2018::18:29:45 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460675675683412)
+
+=INFO REPORT==== 28-Jan-2018::18:29:45 ===
+           ts_client:(6:<0.128.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:29:46 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460674794845511)
+
+=INFO REPORT==== 28-Jan-2018::18:29:46 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460674742179863)
+
+=INFO REPORT==== 28-Jan-2018::18:29:46 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460674599884677)
+
+=INFO REPORT==== 28-Jan-2018::18:29:46 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460674548694964)
+
+=INFO REPORT==== 28-Jan-2018::18:29:46 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460674424886847)
+
+=INFO REPORT==== 28-Jan-2018::18:29:46 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460674373887838)
+
+=INFO REPORT==== 28-Jan-2018::18:29:46 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460674373317065)
+
+=INFO REPORT==== 28-Jan-2018::18:29:46 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460674322846204)
+
+=INFO REPORT==== 28-Jan-2018::18:29:47 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460673802871046)
+
+=INFO REPORT==== 28-Jan-2018::18:29:47 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460673751371558)
+
+=INFO REPORT==== 28-Jan-2018::18:29:47 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460673649877164)
+
+=INFO REPORT==== 28-Jan-2018::18:29:47 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460673598668703)
+
+=INFO REPORT==== 28-Jan-2018::18:29:47 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460673540887307)
+
+=INFO REPORT==== 28-Jan-2018::18:29:47 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460673502863672)
+
+=INFO REPORT==== 28-Jan-2018::18:29:47 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460673474063154)
+
+=INFO REPORT==== 28-Jan-2018::18:29:47 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460673439389282)
+
+=INFO REPORT==== 28-Jan-2018::18:29:47 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460673371876157)
+
+=INFO REPORT==== 28-Jan-2018::18:29:47 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460673320233037)
+
+=INFO REPORT==== 28-Jan-2018::18:29:48 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460672758864345)
+
+=INFO REPORT==== 28-Jan-2018::18:29:48 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460672707585692)
+
+=INFO REPORT==== 28-Jan-2018::18:29:48 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460672259885759)
+
+=INFO REPORT==== 28-Jan-2018::18:29:48 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460672208748022)
+
+=INFO REPORT==== 28-Jan-2018::18:29:48 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460672051858008)
+
+=INFO REPORT==== 28-Jan-2018::18:29:48 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460672000573536)
+
+=INFO REPORT==== 28-Jan-2018::18:29:48 ===
+           ts_client:(6:<0.131.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:29:49 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460671690949070)
+
+=INFO REPORT==== 28-Jan-2018::18:29:49 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460671639319079)
+
+=INFO REPORT==== 28-Jan-2018::18:29:50 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460670597974900)
+
+=INFO REPORT==== 28-Jan-2018::18:29:50 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460670547004869)
+
+=INFO REPORT==== 28-Jan-2018::18:29:51 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460669439883439)
+
+=INFO REPORT==== 28-Jan-2018::18:29:51 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460669388667534)
+
+=INFO REPORT==== 28-Jan-2018::18:29:52 ===
+           ts_client:(6:<0.134.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:29:52 ===
+           ts_client:(6:<0.133.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:29:52 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460668173880130)
+
+=INFO REPORT==== 28-Jan-2018::18:29:52 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460668121865652)
+
+=INFO REPORT==== 28-Jan-2018::18:29:53 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460667415882292)
+
+=INFO REPORT==== 28-Jan-2018::18:29:53 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460667381873495)
+
+=INFO REPORT==== 28-Jan-2018::18:29:53 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460667339676003)
+
+=INFO REPORT==== 28-Jan-2018::18:29:53 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460667314369801)
+
+=INFO REPORT==== 28-Jan-2018::18:29:53 ===
+           ts_client:(6:<0.128.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:29:53 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460667143925085)
+
+=INFO REPORT==== 28-Jan-2018::18:29:53 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460667092642187)
+
+=INFO REPORT==== 28-Jan-2018::18:29:54 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460666902877742)
+
+=INFO REPORT==== 28-Jan-2018::18:29:54 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460666849083569)
+
+=INFO REPORT==== 28-Jan-2018::18:29:54 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460666335893712)
+
+=INFO REPORT==== 28-Jan-2018::18:29:54 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460666284350049)
+
+=INFO REPORT==== 28-Jan-2018::18:29:54 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460666137911896)
+
+=INFO REPORT==== 28-Jan-2018::18:29:54 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460666086630266)
+
+=INFO REPORT==== 28-Jan-2018::18:29:55 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460665556886846)
+
+=INFO REPORT==== 28-Jan-2018::18:29:55 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460665505912809)
+
+=INFO REPORT==== 28-Jan-2018::18:29:55 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460665150947709)
+
+=INFO REPORT==== 28-Jan-2018::18:29:55 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460665099332418)
+
+=INFO REPORT==== 28-Jan-2018::18:29:56 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460664471887242)
+
+=INFO REPORT==== 28-Jan-2018::18:29:56 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460664420758348)
+
+=INFO REPORT==== 28-Jan-2018::18:29:57 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460663843853079)
+
+=INFO REPORT==== 28-Jan-2018::18:29:57 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460663792526855)
+
+=INFO REPORT==== 28-Jan-2018::18:29:57 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460663381888636)
+
+=INFO REPORT==== 28-Jan-2018::18:29:57 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460663334890008)
+
+=INFO REPORT==== 28-Jan-2018::18:29:57 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460663319691899)
+
+=INFO REPORT==== 28-Jan-2018::18:29:57 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460663279301989)
+
+=INFO REPORT==== 28-Jan-2018::18:29:57 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460663233894440)
+
+=INFO REPORT==== 28-Jan-2018::18:29:57 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460663182759838)
+
+=INFO REPORT==== 28-Jan-2018::18:29:58 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460662773836233)
+
+=INFO REPORT==== 28-Jan-2018::18:29:58 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460662722209435)
+
+=INFO REPORT==== 28-Jan-2018::18:29:58 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460662470868386)
+
+=INFO REPORT==== 28-Jan-2018::18:29:58 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460662419378895)
+
+=INFO REPORT==== 28-Jan-2018::18:29:58 ===
+           ts_client:(6:<0.132.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:29:58 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460662033875281)
+
+=INFO REPORT==== 28-Jan-2018::18:29:58 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460661982632691)
+
+=INFO REPORT==== 28-Jan-2018::18:29:59 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460661878865979)
+
+=INFO REPORT==== 28-Jan-2018::18:29:59 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460661826146430)
+
+=INFO REPORT==== 28-Jan-2018::18:29:59 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460661825946177)
+
+=INFO REPORT==== 28-Jan-2018::18:29:59 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460661814882653)
+
+=INFO REPORT==== 28-Jan-2018::18:29:59 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460661800880232)
+
+=INFO REPORT==== 28-Jan-2018::18:29:59 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460661676768254)
+
+=INFO REPORT==== 28-Jan-2018::18:29:59 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460661674280369)
+
+=INFO REPORT==== 28-Jan-2018::18:29:59 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460661673728991)
+
+=INFO REPORT==== 28-Jan-2018::18:29:59 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460661316870183)
+
+=INFO REPORT==== 28-Jan-2018::18:29:59 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460661265647409)
+
+=INFO REPORT==== 28-Jan-2018::18:29:59 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460661240863729)
+
+=INFO REPORT==== 28-Jan-2018::18:29:59 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460661189604896)
+
+=INFO REPORT==== 28-Jan-2018::18:29:59 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460660939880285)
+
+=INFO REPORT==== 28-Jan-2018::18:30:00 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460660888355212)
+
+=INFO REPORT==== 28-Jan-2018::18:30:00 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460660795867015)
+
+=INFO REPORT==== 28-Jan-2018::18:30:00 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460660744409649)
+
+=INFO REPORT==== 28-Jan-2018::18:30:00 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460660457918145)
+
+=INFO REPORT==== 28-Jan-2018::18:30:00 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460660406986138)
+
+=INFO REPORT==== 28-Jan-2018::18:30:00 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460660349961603)
+
+=INFO REPORT==== 28-Jan-2018::18:30:00 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460660298721167)
+
+=INFO REPORT==== 28-Jan-2018::18:30:01 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460659403862431)
+
+=INFO REPORT==== 28-Jan-2018::18:30:01 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460659352293931)
+
+=INFO REPORT==== 28-Jan-2018::18:30:01 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460659116870180)
+
+=INFO REPORT==== 28-Jan-2018::18:30:01 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460659065593011)
+
+=INFO REPORT==== 28-Jan-2018::18:30:02 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460658062856303)
+
+=INFO REPORT==== 28-Jan-2018::18:30:02 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460658011568059)
+
+=INFO REPORT==== 28-Jan-2018::18:30:03 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460657282840189)
+
+=INFO REPORT==== 28-Jan-2018::18:30:03 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460657245848238)
+
+=INFO REPORT==== 28-Jan-2018::18:30:03 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460657214229017)
+
+=INFO REPORT==== 28-Jan-2018::18:30:03 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460657181189055)
+
+=INFO REPORT==== 28-Jan-2018::18:30:03 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460657028865664)
+
+=INFO REPORT==== 28-Jan-2018::18:30:03 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460656977604878)
+
+=INFO REPORT==== 28-Jan-2018::18:30:04 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460656743845852)
+
+=INFO REPORT==== 28-Jan-2018::18:30:04 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460656692530859)
+
+=INFO REPORT==== 28-Jan-2018::18:30:04 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460656674869495)
+
+=INFO REPORT==== 28-Jan-2018::18:30:04 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460656623182979)
+
+=INFO REPORT==== 28-Jan-2018::18:30:04 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460656199885400)
+
+=INFO REPORT==== 28-Jan-2018::18:30:04 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460656168900482)
+
+=INFO REPORT==== 28-Jan-2018::18:30:04 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460656124289368)
+
+=INFO REPORT==== 28-Jan-2018::18:30:04 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460656098405161)
+
+=INFO REPORT==== 28-Jan-2018::18:30:05 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460655659931499)
+
+=INFO REPORT==== 28-Jan-2018::18:30:05 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460655608925604)
+
+=INFO REPORT==== 28-Jan-2018::18:30:06 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460654859906208)
+
+=INFO REPORT==== 28-Jan-2018::18:30:06 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460654808849221)
+
+=INFO REPORT==== 28-Jan-2018::18:30:06 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460654598915342)
+
+=INFO REPORT==== 28-Jan-2018::18:30:06 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460654548912669)
+
+=INFO REPORT==== 28-Jan-2018::18:30:06 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460654539283074)
+
+=INFO REPORT==== 28-Jan-2018::18:30:06 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460654497591414)
+
+=INFO REPORT==== 28-Jan-2018::18:30:06 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460654353916401)
+
+=INFO REPORT==== 28-Jan-2018::18:30:06 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460654302929955)
+
+=INFO REPORT==== 28-Jan-2018::18:30:06 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460654028917809)
+
+=INFO REPORT==== 28-Jan-2018::18:30:06 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460653977883160)
+
+=INFO REPORT==== 28-Jan-2018::18:30:07 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460653389879865)
+
+=INFO REPORT==== 28-Jan-2018::18:30:07 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460653338260396)
+
+=INFO REPORT==== 28-Jan-2018::18:30:08 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460652775891447)
+
+=INFO REPORT==== 28-Jan-2018::18:30:08 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460652724328038)
+
+=INFO REPORT==== 28-Jan-2018::18:30:09 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460651375870478)
+
+=INFO REPORT==== 28-Jan-2018::18:30:09 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460651324573069)
+
+=INFO REPORT==== 28-Jan-2018::18:30:10 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460650569889356)
+
+=INFO REPORT==== 28-Jan-2018::18:30:10 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460650518834835)
+
+=INFO REPORT==== 28-Jan-2018::18:30:10 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460650158955609)
+
+=INFO REPORT==== 28-Jan-2018::18:30:10 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460650107652190)
+
+=INFO REPORT==== 28-Jan-2018::18:30:11 ===
+           ts_client:(6:<0.134.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:30:11 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460649644920850)
+
+=INFO REPORT==== 28-Jan-2018::18:30:11 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460649619914201)
+
+=INFO REPORT==== 28-Jan-2018::18:30:11 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460649558110911)
+
+=INFO REPORT==== 28-Jan-2018::18:30:11 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460649542922352)
+
+=INFO REPORT==== 28-Jan-2018::18:30:11 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460649526934742)
+
+=INFO REPORT==== 28-Jan-2018::18:30:11 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460649475872018)
+
+=INFO REPORT==== 28-Jan-2018::18:30:11 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460649279911822)
+
+=INFO REPORT==== 28-Jan-2018::18:30:11 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460649228438719)
+
+=INFO REPORT==== 28-Jan-2018::18:30:11 ===
+           ts_client:(6:<0.128.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:30:12 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460648500899733)
+
+=INFO REPORT==== 28-Jan-2018::18:30:12 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460648449601711)
+
+=INFO REPORT==== 28-Jan-2018::18:30:12 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460648037888808)
+
+=INFO REPORT==== 28-Jan-2018::18:30:12 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460647986676842)
+
+=INFO REPORT==== 28-Jan-2018::18:30:13 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460647760882483)
+
+=INFO REPORT==== 28-Jan-2018::18:30:13 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460647709383133)
+
+=INFO REPORT==== 28-Jan-2018::18:30:14 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460646560872702)
+
+=INFO REPORT==== 28-Jan-2018::18:30:14 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460646509646954)
+
+=INFO REPORT==== 28-Jan-2018::18:30:14 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460646432880478)
+
+=INFO REPORT==== 28-Jan-2018::18:30:14 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460646381613669)
+
+=INFO REPORT==== 28-Jan-2018::18:30:15 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460645604863533)
+
+=INFO REPORT==== 28-Jan-2018::18:30:15 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460645553599682)
+
+=INFO REPORT==== 28-Jan-2018::18:30:15 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460645328888705)
+
+=INFO REPORT==== 28-Jan-2018::18:30:15 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460645277525544)
+
+=INFO REPORT==== 28-Jan-2018::18:30:15 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460645071890047)
+
+=INFO REPORT==== 28-Jan-2018::18:30:15 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460645019846372)
+
+=INFO REPORT==== 28-Jan-2018::18:30:16 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460644721875557)
+
+=INFO REPORT==== 28-Jan-2018::18:30:16 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460644670641748)
+
+=INFO REPORT==== 28-Jan-2018::18:30:16 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460644612907388)
+
+=INFO REPORT==== 28-Jan-2018::18:30:16 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460644561815989)
+
+=INFO REPORT==== 28-Jan-2018::18:30:17 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460643071908321)
+
+=INFO REPORT==== 28-Jan-2018::18:30:17 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460643020885322)
+
+=INFO REPORT==== 28-Jan-2018::18:30:18 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460642343934144)
+
+=INFO REPORT==== 28-Jan-2018::18:30:18 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460642292835646)
+
+=INFO REPORT==== 28-Jan-2018::18:30:19 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460641788748098)
+
+=INFO REPORT==== 28-Jan-2018::18:30:19 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460641737166691)
+
+=INFO REPORT==== 28-Jan-2018::18:30:19 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460641270869339)
+
+=INFO REPORT==== 28-Jan-2018::18:30:19 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460641219297469)
+
+=INFO REPORT==== 28-Jan-2018::18:30:19 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460641116900308)
+
+=INFO REPORT==== 28-Jan-2018::18:30:19 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460641065758101)
+
+=INFO REPORT==== 28-Jan-2018::18:30:20 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460640582858504)
+
+=INFO REPORT==== 28-Jan-2018::18:30:20 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460640531827502)
+
+=INFO REPORT==== 28-Jan-2018::18:30:20 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460640304943701)
+
+=INFO REPORT==== 28-Jan-2018::18:30:20 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460640253579108)
+
+=INFO REPORT==== 28-Jan-2018::18:30:20 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460640171899794)
+
+=INFO REPORT==== 28-Jan-2018::18:30:20 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460640145899057)
+
+=INFO REPORT==== 28-Jan-2018::18:30:20 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460640088354020)
+
+=INFO REPORT==== 28-Jan-2018::18:30:20 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460640070389880)
+
+=INFO REPORT==== 28-Jan-2018::18:30:21 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460639456864459)
+
+=INFO REPORT==== 28-Jan-2018::18:30:21 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460639405821691)
+
+=INFO REPORT==== 28-Jan-2018::18:30:22 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460638244883441)
+
+=INFO REPORT==== 28-Jan-2018::18:30:22 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460638193722135)
+
+=INFO REPORT==== 28-Jan-2018::18:30:23 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460637050895585)
+
+=INFO REPORT==== 28-Jan-2018::18:30:23 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460636999818738)
+
+=INFO REPORT==== 28-Jan-2018::18:30:23 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460636979909974)
+
+=INFO REPORT==== 28-Jan-2018::18:30:24 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460636928370570)
+
+=INFO REPORT==== 28-Jan-2018::18:30:24 ===
+           ts_client:(6:<0.133.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:30:24 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460636342888063)
+
+=INFO REPORT==== 28-Jan-2018::18:30:24 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460636291731805)
+
+=INFO REPORT==== 28-Jan-2018::18:30:24 ===
+           ts_client:(6:<0.132.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:30:25 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460635884886086)
+
+=INFO REPORT==== 28-Jan-2018::18:30:25 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460635831266456)
+
+=INFO REPORT==== 28-Jan-2018::18:30:25 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460635806892371)
+
+=INFO REPORT==== 28-Jan-2018::18:30:25 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460635755794282)
+
+=INFO REPORT==== 28-Jan-2018::18:30:25 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460635485896719)
+
+=INFO REPORT==== 28-Jan-2018::18:30:25 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460635434821614)
+
+=INFO REPORT==== 28-Jan-2018::18:30:26 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460634457849605)
+
+=INFO REPORT==== 28-Jan-2018::18:30:26 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460634435861509)
+
+=INFO REPORT==== 28-Jan-2018::18:30:26 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460634367738055)
+
+=INFO REPORT==== 28-Jan-2018::18:30:26 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460634354667258)
+
+=INFO REPORT==== 28-Jan-2018::18:30:27 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460633702875501)
+
+=INFO REPORT==== 28-Jan-2018::18:30:27 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460633651643102)
+
+=INFO REPORT==== 28-Jan-2018::18:30:27 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460633641892542)
+
+=INFO REPORT==== 28-Jan-2018::18:30:27 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460633590782972)
+
+=INFO REPORT==== 28-Jan-2018::18:30:28 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460632733882985)
+
+=INFO REPORT==== 28-Jan-2018::18:30:28 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460632682694406)
+
+=INFO REPORT==== 28-Jan-2018::18:30:28 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460632570914836)
+
+=INFO REPORT==== 28-Jan-2018::18:30:28 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460632519544826)
+
+=INFO REPORT==== 28-Jan-2018::18:30:28 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460632329916839)
+
+=INFO REPORT==== 28-Jan-2018::18:30:28 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460632278862125)
+
+=INFO REPORT==== 28-Jan-2018::18:30:29 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460631834913771)
+
+=INFO REPORT==== 28-Jan-2018::18:30:29 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460631783904099)
+
+=INFO REPORT==== 28-Jan-2018::18:30:29 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460631604901246)
+
+=INFO REPORT==== 28-Jan-2018::18:30:29 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460631553051135)
+
+=INFO REPORT==== 28-Jan-2018::18:30:29 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460631186869128)
+
+=INFO REPORT==== 28-Jan-2018::18:30:29 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460631135593772)
+
+=INFO REPORT==== 28-Jan-2018::18:30:30 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460630540882196)
+
+=INFO REPORT==== 28-Jan-2018::18:30:30 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460630489849145)
+
+=INFO REPORT==== 28-Jan-2018::18:30:30 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460630418923004)
+
+=INFO REPORT==== 28-Jan-2018::18:30:30 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460630367897645)
+
+=INFO REPORT==== 28-Jan-2018::18:30:31 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460629412846803)
+
+=INFO REPORT==== 28-Jan-2018::18:30:31 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460629361514710)
+
+=INFO REPORT==== 28-Jan-2018::18:30:31 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460629098900152)
+
+=INFO REPORT==== 28-Jan-2018::18:30:31 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460629047792960)
+
+=INFO REPORT==== 28-Jan-2018::18:30:33 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460627874863008)
+
+=INFO REPORT==== 28-Jan-2018::18:30:33 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460627823575387)
+
+=INFO REPORT==== 28-Jan-2018::18:30:33 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460627792872333)
+
+=INFO REPORT==== 28-Jan-2018::18:30:33 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460627741311948)
+
+=INFO REPORT==== 28-Jan-2018::18:30:33 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460627646845139)
+
+=INFO REPORT==== 28-Jan-2018::18:30:33 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460627595706214)
+
+=INFO REPORT==== 28-Jan-2018::18:30:33 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460627403884843)
+
+=INFO REPORT==== 28-Jan-2018::18:30:33 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460627360861280)
+
+=INFO REPORT==== 28-Jan-2018::18:30:33 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460627340939868)
+
+=INFO REPORT==== 28-Jan-2018::18:30:33 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460627302362295)
+
+=INFO REPORT==== 28-Jan-2018::18:30:33 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460627214863863)
+
+=INFO REPORT==== 28-Jan-2018::18:30:33 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460627163580130)
+
+=INFO REPORT==== 28-Jan-2018::18:30:34 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460626477876599)
+
+=INFO REPORT==== 28-Jan-2018::18:30:34 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460626436887047)
+
+=INFO REPORT==== 28-Jan-2018::18:30:34 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460626410822939)
+
+=INFO REPORT==== 28-Jan-2018::18:30:34 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460626376360095)
+
+=INFO REPORT==== 28-Jan-2018::18:30:34 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460626131874851)
+
+=INFO REPORT==== 28-Jan-2018::18:30:34 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460626080667473)
+
+=INFO REPORT==== 28-Jan-2018::18:30:35 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460625442861684)
+
+=INFO REPORT==== 28-Jan-2018::18:30:35 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460625391780496)
+
+=INFO REPORT==== 28-Jan-2018::18:30:35 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460625354922448)
+
+=INFO REPORT==== 28-Jan-2018::18:30:35 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460625303983046)
+
+=INFO REPORT==== 28-Jan-2018::18:30:36 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460624163892885)
+
+=INFO REPORT==== 28-Jan-2018::18:30:36 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460624112695423)
+
+=INFO REPORT==== 28-Jan-2018::18:30:37 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460623673869317)
+
+=INFO REPORT==== 28-Jan-2018::18:30:37 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460623626871596)
+
+=INFO REPORT==== 28-Jan-2018::18:30:37 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460623612330186)
+
+=INFO REPORT==== 28-Jan-2018::18:30:37 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460623572026397)
+
+=INFO REPORT==== 28-Jan-2018::18:30:37 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460623463882518)
+
+=INFO REPORT==== 28-Jan-2018::18:30:37 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460623412757562)
+
+=INFO REPORT==== 28-Jan-2018::18:30:37 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460623355879685)
+
+=INFO REPORT==== 28-Jan-2018::18:30:37 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460623304728356)
+
+=INFO REPORT==== 28-Jan-2018::18:30:37 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460623030862151)
+
+=INFO REPORT==== 28-Jan-2018::18:30:37 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460622979596074)
+
+=INFO REPORT==== 28-Jan-2018::18:30:39 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460621248855712)
+
+=INFO REPORT==== 28-Jan-2018::18:30:39 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460621231860336)
+
+=INFO REPORT==== 28-Jan-2018::18:30:39 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460621158210108)
+
+=INFO REPORT==== 28-Jan-2018::18:30:39 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460621146857910)
+
+=INFO REPORT==== 28-Jan-2018::18:30:39 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460621069902534)
+
+=INFO REPORT==== 28-Jan-2018::18:30:39 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460621018854436)
+
+=INFO REPORT==== 28-Jan-2018::18:30:40 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460620444959936)
+
+=INFO REPORT==== 28-Jan-2018::18:30:40 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460620394023248)
+
+=INFO REPORT==== 28-Jan-2018::18:30:40 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460620000914447)
+
+=INFO REPORT==== 28-Jan-2018::18:30:40 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460619949608513)
+
+=INFO REPORT==== 28-Jan-2018::18:30:41 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460619253869873)
+
+=INFO REPORT==== 28-Jan-2018::18:30:41 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460619202665413)
+
+=INFO REPORT==== 28-Jan-2018::18:30:42 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460618209889643)
+
+=INFO REPORT==== 28-Jan-2018::18:30:42 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460618158786571)
+
+=INFO REPORT==== 28-Jan-2018::18:30:42 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460618137907390)
+
+=INFO REPORT==== 28-Jan-2018::18:30:42 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460618086772837)
+
+=INFO REPORT==== 28-Jan-2018::18:30:43 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460617886913381)
+
+=INFO REPORT==== 28-Jan-2018::18:30:43 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460617835887002)
+
+=INFO REPORT==== 28-Jan-2018::18:30:43 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460617523893539)
+
+=INFO REPORT==== 28-Jan-2018::18:30:43 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460617472782326)
+
+=INFO REPORT==== 28-Jan-2018::18:30:43 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460617053866595)
+
+=INFO REPORT==== 28-Jan-2018::18:30:43 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460617002674876)
+
+=INFO REPORT==== 28-Jan-2018::18:30:44 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460616735893274)
+
+=INFO REPORT==== 28-Jan-2018::18:30:44 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460616684772427)
+
+=INFO REPORT==== 28-Jan-2018::18:30:44 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460616575913593)
+
+=INFO REPORT==== 28-Jan-2018::18:30:44 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460616524798045)
+
+=INFO REPORT==== 28-Jan-2018::18:30:44 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460616372880261)
+
+=INFO REPORT==== 28-Jan-2018::18:30:44 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460616321715607)
+
+=INFO REPORT==== 28-Jan-2018::18:30:44 ===
+           ts_client:(6:<0.128.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:30:44 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460615955852632)
+
+=INFO REPORT==== 28-Jan-2018::18:30:45 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460615904265629)
+
+=INFO REPORT==== 28-Jan-2018::18:30:45 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460615800858444)
+
+=INFO REPORT==== 28-Jan-2018::18:30:45 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460615749560185)
+
+=INFO REPORT==== 28-Jan-2018::18:30:45 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460615400907273)
+
+=INFO REPORT==== 28-Jan-2018::18:30:45 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460615349828983)
+
+=INFO REPORT==== 28-Jan-2018::18:30:46 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460614881901043)
+
+=INFO REPORT==== 28-Jan-2018::18:30:46 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460614830899002)
+
+=INFO REPORT==== 28-Jan-2018::18:30:46 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460614384923258)
+
+=INFO REPORT==== 28-Jan-2018::18:30:46 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460614333947169)
+
+=INFO REPORT==== 28-Jan-2018::18:30:46 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460614165923947)
+
+=INFO REPORT==== 28-Jan-2018::18:30:46 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460614114832989)
+
+=INFO REPORT==== 28-Jan-2018::18:30:47 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460613759892078)
+
+=INFO REPORT==== 28-Jan-2018::18:30:47 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460613708184730)
+
+=INFO REPORT==== 28-Jan-2018::18:30:47 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460613476890453)
+
+=INFO REPORT==== 28-Jan-2018::18:30:47 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460613425804309)
+
+=INFO REPORT==== 28-Jan-2018::18:30:47 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460613271894374)
+
+=INFO REPORT==== 28-Jan-2018::18:30:47 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460613220761897)
+
+=INFO REPORT==== 28-Jan-2018::18:30:48 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460612407912831)
+
+=INFO REPORT==== 28-Jan-2018::18:30:48 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460612356486615)
+
+=INFO REPORT==== 28-Jan-2018::18:30:49 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460611727923643)
+
+=INFO REPORT==== 28-Jan-2018::18:30:49 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460611676735585)
+
+=INFO REPORT==== 28-Jan-2018::18:30:50 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460610941851840)
+
+=INFO REPORT==== 28-Jan-2018::18:30:50 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460610888354527)
+
+=INFO REPORT==== 28-Jan-2018::18:30:50 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460609981874387)
+
+=INFO REPORT==== 28-Jan-2018::18:30:51 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460609930882166)
+
+=INFO REPORT==== 28-Jan-2018::18:30:51 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460609930450595)
+
+=INFO REPORT==== 28-Jan-2018::18:30:51 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460609879401606)
+
+=INFO REPORT==== 28-Jan-2018::18:30:51 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460609782870877)
+
+=INFO REPORT==== 28-Jan-2018::18:30:51 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460609731552146)
+
+=INFO REPORT==== 28-Jan-2018::18:30:51 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460609510933199)
+
+=INFO REPORT==== 28-Jan-2018::18:30:51 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460609460010316)
+
+=INFO REPORT==== 28-Jan-2018::18:30:51 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460609147935083)
+
+=INFO REPORT==== 28-Jan-2018::18:30:51 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460609096869820)
+
+=INFO REPORT==== 28-Jan-2018::18:30:52 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460608147889871)
+
+=INFO REPORT==== 28-Jan-2018::18:30:52 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460608096715307)
+
+=INFO REPORT==== 28-Jan-2018::18:30:53 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460607898869595)
+
+=INFO REPORT==== 28-Jan-2018::18:30:53 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460607847603186)
+
+=INFO REPORT==== 28-Jan-2018::18:30:53 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460607784872181)
+
+=INFO REPORT==== 28-Jan-2018::18:30:53 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460607752859321)
+
+=INFO REPORT==== 28-Jan-2018::18:30:53 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460607710470021)
+
+=INFO REPORT==== 28-Jan-2018::18:30:53 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460607682975137)
+
+=INFO REPORT==== 28-Jan-2018::18:30:53 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460607017893127)
+
+=INFO REPORT==== 28-Jan-2018::18:30:53 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460606966778842)
+
+=INFO REPORT==== 28-Jan-2018::18:30:53 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460606944897634)
+
+=INFO REPORT==== 28-Jan-2018::18:30:54 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460606893470584)
+
+=INFO REPORT==== 28-Jan-2018::18:30:54 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460606302876695)
+
+=INFO REPORT==== 28-Jan-2018::18:30:54 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460606256872239)
+
+=INFO REPORT==== 28-Jan-2018::18:30:54 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460606238788794)
+
+=INFO REPORT==== 28-Jan-2018::18:30:54 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460606200746083)
+
+=INFO REPORT==== 28-Jan-2018::18:30:55 ===
+           ts_client:(6:<0.128.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:30:55 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460605830899614)
+
+=INFO REPORT==== 28-Jan-2018::18:30:55 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460605779778635)
+
+=INFO REPORT==== 28-Jan-2018::18:30:55 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460605171897990)
+
+=INFO REPORT==== 28-Jan-2018::18:30:55 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460605120710173)
+
+=INFO REPORT==== 28-Jan-2018::18:30:56 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460604493864237)
+
+=INFO REPORT==== 28-Jan-2018::18:30:56 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460604453937361)
+
+=INFO REPORT==== 28-Jan-2018::18:30:56 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460604425304441)
+
+=INFO REPORT==== 28-Jan-2018::18:30:56 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460604392289786)
+
+=INFO REPORT==== 28-Jan-2018::18:30:56 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460604382891611)
+
+=INFO REPORT==== 28-Jan-2018::18:30:56 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460604331751382)
+
+=INFO REPORT==== 28-Jan-2018::18:30:58 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460602875881515)
+
+=INFO REPORT==== 28-Jan-2018::18:30:58 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460602824707099)
+
+=INFO REPORT==== 28-Jan-2018::18:30:58 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460602711902424)
+
+=INFO REPORT==== 28-Jan-2018::18:30:58 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460602660824015)
+
+=INFO REPORT==== 28-Jan-2018::18:30:58 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460602519905892)
+
+=INFO REPORT==== 28-Jan-2018::18:30:58 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460602468841412)
+
+=INFO REPORT==== 28-Jan-2018::18:30:59 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460601930913819)
+
+=INFO REPORT==== 28-Jan-2018::18:30:59 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460601879091783)
+
+=INFO REPORT==== 28-Jan-2018::18:30:59 ===
+           ts_client:(6:<0.132.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:30:59 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460601201887477)
+
+=INFO REPORT==== 28-Jan-2018::18:30:59 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460601149812745)
+
+=INFO REPORT==== 28-Jan-2018::18:31:00 ===
+           ts_client:(6:<0.131.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:31:00 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460600505910620)
+
+=INFO REPORT==== 28-Jan-2018::18:31:00 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460600454862506)
+
+=INFO REPORT==== 28-Jan-2018::18:31:00 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460600429978315)
+
+=INFO REPORT==== 28-Jan-2018::18:31:00 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460600379012126)
+
+=INFO REPORT==== 28-Jan-2018::18:31:00 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460600252962570)
+
+=INFO REPORT==== 28-Jan-2018::18:31:00 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460600201959181)
+
+=INFO REPORT==== 28-Jan-2018::18:31:01 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460599931910013)
+
+=INFO REPORT==== 28-Jan-2018::18:31:01 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460599880485886)
+
+=INFO REPORT==== 28-Jan-2018::18:31:01 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460599427882492)
+
+=INFO REPORT==== 28-Jan-2018::18:31:01 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460599376665388)
+
+=INFO REPORT==== 28-Jan-2018::18:31:01 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460599373897142)
+
+=INFO REPORT==== 28-Jan-2018::18:31:01 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460599363895922)
+
+=INFO REPORT==== 28-Jan-2018::18:31:01 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460599274890200)
+
+=INFO REPORT==== 28-Jan-2018::18:31:01 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460599272467467)
+
+=INFO REPORT==== 28-Jan-2018::18:31:01 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460599012884767)
+
+=INFO REPORT==== 28-Jan-2018::18:31:01 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460598961720432)
+
+=INFO REPORT==== 28-Jan-2018::18:31:02 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460598471885867)
+
+=INFO REPORT==== 28-Jan-2018::18:31:02 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460598420719830)
+
+=INFO REPORT==== 28-Jan-2018::18:31:03 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460597740891274)
+
+=INFO REPORT==== 28-Jan-2018::18:31:03 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460597689592232)
+
+=INFO REPORT==== 28-Jan-2018::18:31:04 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460596903851981)
+
+=INFO REPORT==== 28-Jan-2018::18:31:04 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460596851619446)
+
+=INFO REPORT==== 28-Jan-2018::18:31:04 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460596839875818)
+
+=INFO REPORT==== 28-Jan-2018::18:31:04 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460596788610482)
+
+=INFO REPORT==== 28-Jan-2018::18:31:04 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460596660884806)
+
+=INFO REPORT==== 28-Jan-2018::18:31:04 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460596609191858)
+
+=INFO REPORT==== 28-Jan-2018::18:31:04 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460596406891304)
+
+=INFO REPORT==== 28-Jan-2018::18:31:04 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460596355718208)
+
+=INFO REPORT==== 28-Jan-2018::18:31:05 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460595279877840)
+
+=INFO REPORT==== 28-Jan-2018::18:31:05 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460595228666991)
+
+=INFO REPORT==== 28-Jan-2018::18:31:05 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460595120886978)
+
+=INFO REPORT==== 28-Jan-2018::18:31:05 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460595069712009)
+
+=INFO REPORT==== 28-Jan-2018::18:31:06 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460594511877374)
+
+=INFO REPORT==== 28-Jan-2018::18:31:06 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460594460717832)
+
+=INFO REPORT==== 28-Jan-2018::18:31:06 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460594280891420)
+
+=INFO REPORT==== 28-Jan-2018::18:31:06 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460594229426431)
+
+=INFO REPORT==== 28-Jan-2018::18:31:07 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460593255902484)
+
+=INFO REPORT==== 28-Jan-2018::18:31:07 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460593204819122)
+
+=INFO REPORT==== 28-Jan-2018::18:31:07 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460593146912217)
+
+=INFO REPORT==== 28-Jan-2018::18:31:07 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460593095415306)
+
+=INFO REPORT==== 28-Jan-2018::18:31:08 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460592399881747)
+
+=INFO REPORT==== 28-Jan-2018::18:31:08 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460592348683708)
+
+=INFO REPORT==== 28-Jan-2018::18:31:08 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460592065858837)
+
+=INFO REPORT==== 28-Jan-2018::18:31:08 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460592014600313)
+
+=INFO REPORT==== 28-Jan-2018::18:31:09 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460591727898328)
+
+=INFO REPORT==== 28-Jan-2018::18:31:09 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460591676752472)
+
+=INFO REPORT==== 28-Jan-2018::18:31:09 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460591625846344)
+
+=INFO REPORT==== 28-Jan-2018::18:31:09 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460591574496148)
+
+=INFO REPORT==== 28-Jan-2018::18:31:10 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460590087874081)
+
+=INFO REPORT==== 28-Jan-2018::18:31:10 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460590036739902)
+
+=INFO REPORT==== 28-Jan-2018::18:31:11 ===
+           ts_client:(6:<0.131.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:31:12 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460588325910954)
+
+=INFO REPORT==== 28-Jan-2018::18:31:12 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460588274847544)
+
+=INFO REPORT==== 28-Jan-2018::18:31:12 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460588117916426)
+
+=INFO REPORT==== 28-Jan-2018::18:31:12 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460588066771397)
+
+=INFO REPORT==== 28-Jan-2018::18:31:13 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460587915868359)
+
+=INFO REPORT==== 28-Jan-2018::18:31:13 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460587864325257)
+
+=INFO REPORT==== 28-Jan-2018::18:31:13 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460587776870946)
+
+=INFO REPORT==== 28-Jan-2018::18:31:13 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460587725422426)
+
+=INFO REPORT==== 28-Jan-2018::18:31:13 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460587709867214)
+
+=INFO REPORT==== 28-Jan-2018::18:31:13 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460587658270432)
+
+=INFO REPORT==== 28-Jan-2018::18:31:13 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460587293887129)
+
+=INFO REPORT==== 28-Jan-2018::18:31:13 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460587242835748)
+
+=INFO REPORT==== 28-Jan-2018::18:31:13 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460587234945101)
+
+=INFO REPORT==== 28-Jan-2018::18:31:13 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460587184067281)
+
+=INFO REPORT==== 28-Jan-2018::18:31:14 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460586905904687)
+
+=INFO REPORT==== 28-Jan-2018::18:31:14 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460586854629221)
+
+=INFO REPORT==== 28-Jan-2018::18:31:14 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460586749914996)
+
+=INFO REPORT==== 28-Jan-2018::18:31:14 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460586698038097)
+
+=INFO REPORT==== 28-Jan-2018::18:31:14 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460586581913120)
+
+=INFO REPORT==== 28-Jan-2018::18:31:14 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460586530926103)
+
+=INFO REPORT==== 28-Jan-2018::18:31:14 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460586483904022)
+
+=INFO REPORT==== 28-Jan-2018::18:31:14 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460586432788167)
+
+=INFO REPORT==== 28-Jan-2018::18:31:14 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460586412913131)
+
+=INFO REPORT==== 28-Jan-2018::18:31:14 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460586361786484)
+
+=INFO REPORT==== 28-Jan-2018::18:31:14 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460586157904691)
+
+=INFO REPORT==== 28-Jan-2018::18:31:14 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460586106777626)
+
+=INFO REPORT==== 28-Jan-2018::18:31:15 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460585445917583)
+
+=INFO REPORT==== 28-Jan-2018::18:31:15 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460585394901858)
+
+=INFO REPORT==== 28-Jan-2018::18:31:16 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460584686908104)
+
+=INFO REPORT==== 28-Jan-2018::18:31:16 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460584635837377)
+
+=INFO REPORT==== 28-Jan-2018::18:31:16 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460584585920854)
+
+=INFO REPORT==== 28-Jan-2018::18:31:16 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460584543920599)
+
+=INFO REPORT==== 28-Jan-2018::18:31:16 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460584516997244)
+
+=INFO REPORT==== 28-Jan-2018::18:31:16 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460584484498433)
+
+=INFO REPORT==== 28-Jan-2018::18:31:17 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460583711860894)
+
+=INFO REPORT==== 28-Jan-2018::18:31:17 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460583667867357)
+
+=INFO REPORT==== 28-Jan-2018::18:31:17 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460583650872913)
+
+=INFO REPORT==== 28-Jan-2018::18:31:17 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460583610306500)
+
+=INFO REPORT==== 28-Jan-2018::18:31:18 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460582832894818)
+
+=INFO REPORT==== 28-Jan-2018::18:31:18 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460582781723583)
+
+=INFO REPORT==== 28-Jan-2018::18:31:18 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460582773905464)
+
+=INFO REPORT==== 28-Jan-2018::18:31:18 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460582722542961)
+
+=INFO REPORT==== 28-Jan-2018::18:31:19 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460581900877533)
+
+=INFO REPORT==== 28-Jan-2018::18:31:19 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460581849386047)
+
+=INFO REPORT==== 28-Jan-2018::18:31:19 ===
+           ts_client:(6:<0.131.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:31:19 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460581454913004)
+
+=INFO REPORT==== 28-Jan-2018::18:31:19 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460581403912577)
+
+=INFO REPORT==== 28-Jan-2018::18:31:19 ===
+           ts_client:(6:<0.132.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:31:20 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460580804882690)
+
+=INFO REPORT==== 28-Jan-2018::18:31:20 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460580751336527)
+
+=INFO REPORT==== 28-Jan-2018::18:31:20 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460580350952640)
+
+=INFO REPORT==== 28-Jan-2018::18:31:20 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460580299961803)
+
+=INFO REPORT==== 28-Jan-2018::18:31:20 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460580220965103)
+
+=INFO REPORT==== 28-Jan-2018::18:31:20 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460580169957451)
+
+=INFO REPORT==== 28-Jan-2018::18:31:20 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460580035885865)
+
+=INFO REPORT==== 28-Jan-2018::18:31:20 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460579984757721)
+
+=INFO REPORT==== 28-Jan-2018::18:31:21 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460579671869158)
+
+=INFO REPORT==== 28-Jan-2018::18:31:21 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460579619745194)
+
+=INFO REPORT==== 28-Jan-2018::18:31:21 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460579199858508)
+
+=INFO REPORT==== 28-Jan-2018::18:31:21 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460579148587448)
+
+=INFO REPORT==== 28-Jan-2018::18:31:22 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460578816888422)
+
+=INFO REPORT==== 28-Jan-2018::18:31:22 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460578765686686)
+
+=INFO REPORT==== 28-Jan-2018::18:31:22 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460578575897557)
+
+=INFO REPORT==== 28-Jan-2018::18:31:22 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460578524823553)
+
+=INFO REPORT==== 28-Jan-2018::18:31:22 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460578456897811)
+
+=INFO REPORT==== 28-Jan-2018::18:31:22 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460578405831788)
+
+=INFO REPORT==== 28-Jan-2018::18:31:22 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460578218890494)
+
+=INFO REPORT==== 28-Jan-2018::18:31:22 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460578167797774)
+
+=INFO REPORT==== 28-Jan-2018::18:31:22 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460577998858103)
+
+=INFO REPORT==== 28-Jan-2018::18:31:22 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460577946743013)
+
+=INFO REPORT==== 28-Jan-2018::18:31:23 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460577906885002)
+
+=INFO REPORT==== 28-Jan-2018::18:31:23 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460577855285416)
+
+=INFO REPORT==== 28-Jan-2018::18:31:23 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460577634888021)
+
+=INFO REPORT==== 28-Jan-2018::18:31:23 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460577583739937)
+
+=INFO REPORT==== 28-Jan-2018::18:31:23 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460577121830151)
+
+=INFO REPORT==== 28-Jan-2018::18:31:23 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460577069997592)
+
+=INFO REPORT==== 28-Jan-2018::18:31:24 ===
+           ts_client:(6:<0.133.0>) Starting new transaction tr_busyWait (now-576460576648904104)
+
+=INFO REPORT==== 28-Jan-2018::18:31:24 ===
+           ts_client:(6:<0.133.0>) Stopping transaction tr_busyWait (-576460576597742776)
+
+=INFO REPORT==== 28-Jan-2018::18:31:24 ===
+           ts_client:(6:<0.131.0>) Starting new transaction tr_busyWait (now-576460576210904954)
+
+=INFO REPORT==== 28-Jan-2018::18:31:24 ===
+           ts_client:(6:<0.131.0>) Stopping transaction tr_busyWait (-576460576159834339)
+
+=INFO REPORT==== 28-Jan-2018::18:31:25 ===
+           ts_client:(6:<0.134.0>) Starting new transaction tr_busyWait (now-576460575682884189)
+
+=INFO REPORT==== 28-Jan-2018::18:31:25 ===
+           ts_client:(6:<0.134.0>) Stopping transaction tr_busyWait (-576460575631726852)
+
+=INFO REPORT==== 28-Jan-2018::18:31:25 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460575370890872)
+
+=INFO REPORT==== 28-Jan-2018::18:31:25 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460575319703916)
+
+=INFO REPORT==== 28-Jan-2018::18:31:28 ===
+           ts_client:(6:<0.128.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:31:28 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460572378876256)
+
+=INFO REPORT==== 28-Jan-2018::18:31:28 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460572327705178)
+
+=INFO REPORT==== 28-Jan-2018::18:31:29 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460571698927091)
+
+=INFO REPORT==== 28-Jan-2018::18:31:29 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460571646351556)
+
+=INFO REPORT==== 28-Jan-2018::18:31:29 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460571618892603)
+
+=INFO REPORT==== 28-Jan-2018::18:31:29 ===
+           ts_client:(6:<0.133.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:31:29 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460571567698916)
+
+=INFO REPORT==== 28-Jan-2018::18:31:29 ===
+           ts_client:(6:<0.128.0>) Starting new transaction tr_busyWait (now-576460571361890445)
+
+=INFO REPORT==== 28-Jan-2018::18:31:29 ===
+           ts_client:(6:<0.128.0>) Stopping transaction tr_busyWait (-576460571310774660)
+
+=INFO REPORT==== 28-Jan-2018::18:31:29 ===
+           ts_client:(6:<0.131.0>) connection closed, stay alive (persistent)
+=INFO REPORT==== 28-Jan-2018::18:31:30 ===
+           ts_client:(6:<0.132.0>) Starting new transaction tr_busyWait (now-576460570897876149)
+
+=INFO REPORT==== 28-Jan-2018::18:31:30 ===
+           ts_client:(6:<0.132.0>) Stopping transaction tr_busyWait (-576460570846620564)
+
+=INFO REPORT==== 28-Jan-2018::18:31:30 ===
+    ts_config_server:(0:<0.69.0>) Tsung test max duration reached, exits ! 
+
+=INFO REPORT==== 28-Jan-2018::18:31:30 ===
+              ts_mon:(0:<0.70.0>) Aborting by request !
+
+=INFO REPORT==== 28-Jan-2018::18:31:30 ===
+              ts_mon:(5:<0.70.0>) stopping monitor (abort)

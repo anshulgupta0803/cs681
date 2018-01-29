@@ -1,0 +1,70 @@
+
+=INFO REPORT==== 29-Jan-2018::22:10:31 ===
+    ts_config_server:(5:<0.69.0>) Config server started, logdir is "/home/anshul/git/cs681/assignment1/scripts/client/closed_load/Client_70/logs/20180129-2210"
+ 
+=INFO REPORT==== 29-Jan-2018::22:10:31 ===
+              ts_mon:(5:<0.50.0>) starting monitor, global 
+
+=INFO REPORT==== 29-Jan-2018::22:10:31 ===
+           ts_config:(5:<0.69.0>) Reading config file: tsung70.xml
+
+=INFO REPORT==== 29-Jan-2018::22:10:31 ===
+      ts_config_http:(4:<0.69.0>) Get user agent: 100 "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:28.0) Gecko/20100101 Firefox/28.0" 
+
+=INFO REPORT==== 29-Jan-2018::22:10:31 ===
+           ts_config:(5:<0.69.0>) Session name for id 1 is "loopSession"
+
+=INFO REPORT==== 29-Jan-2018::22:10:31 ===
+    ts_config_server:(4:<0.69.0>) SYSINFO:Tsung version: 1.7.0
+
+=INFO REPORT==== 29-Jan-2018::22:10:31 ===
+    ts_config_server:(4:<0.69.0>) SYSINFO:Erlang version: Erlang/OTP 18 [erts-7.3] [source] [64-bit] [smp:8:8] [async-threads:8] [kernel-poll:true]
+
+
+=INFO REPORT==== 29-Jan-2018::22:10:31 ===
+    ts_config_server:(4:<0.69.0>) SYSINFO:System architecture x86_64-pc-linux-gnu
+
+=INFO REPORT==== 29-Jan-2018::22:10:31 ===
+    ts_config_server:(4:<0.69.0>) SYSINFO:Current path: /usr/lib/tsung/tsung-1.7.0/ebin/tsung.beam
+
+=INFO REPORT==== 29-Jan-2018::22:10:31 ===
+              ts_mon:(5:<0.70.0>) Activate clients with text backend
+
+=INFO REPORT==== 29-Jan-2018::22:10:31 ===
+              ts_mon:(5:<0.70.0>) Starting tsung clients on hosts: [localhost]
+
+=INFO REPORT==== 29-Jan-2018::22:10:31 ===
+    ts_config_server:(5:<0.69.0>) Start a launcher on the controller beam localhost
+
+=INFO REPORT==== 29-Jan-2018::22:10:31 ===
+    ts_config_server:(5:<0.69.0>) Set max duration of test: 120 s 
+
+=INFO REPORT==== 29-Jan-2018::22:10:31 ===
+  ts_launcher_static:(5:<0.122.0>) Launch msg receive ("localhost")
+
+=INFO REPORT==== 29-Jan-2018::22:10:31 ===
+         ts_launcher:(5:<0.123.0>) Launch msg receive ("localhost")
+
+=INFO REPORT==== 29-Jan-2018::22:10:31 ===
+    ts_config_server:(5:<0.69.0>) New arrival phase 1 for client "localhost" (last ? true): will start 70 users
+
+=INFO REPORT==== 29-Jan-2018::22:10:31 ===
+         ts_launcher:(5:<0.123.0>) Expected duration of first phase: 120.0 sec (70 users) 
+
+=INFO REPORT==== 29-Jan-2018::22:10:31 ===
+    alarm_handler: {set,{system_memory_high_watermark,[]}}
+
+=INFO REPORT==== 29-Jan-2018::22:10:31 ===
+         ts_launcher:(5:<0.123.0>) Activate launcher (70 users) in 997 msec 
+
+=INFO REPORT==== 29-Jan-2018::22:10:33 ===
+         ts_launcher:(5:<0.123.0>) This was the last phase, wait for connected users to finish their session
+
+=INFO REPORT==== 29-Jan-2018::22:12:32 ===
+    ts_config_server:(0:<0.69.0>) Tsung test max duration reached, exits ! 
+
+=INFO REPORT==== 29-Jan-2018::22:12:32 ===
+              ts_mon:(0:<0.70.0>) Aborting by request !
+
+=INFO REPORT==== 29-Jan-2018::22:12:32 ===
+              ts_mon:(5:<0.70.0>) stopping monitor (abort)
